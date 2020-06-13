@@ -1,0 +1,11 @@
+[package]
+name = "natakar"
+version = "0.1.0"
+authors = ["nilgradisnik <nil.gradisnik@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+hyper = "0.13"
+tokio = { version = "0.2", features = ["full"] }
+yarte = "0.8"
+minifier = { version = "0.0.36", features = ["html"] }
