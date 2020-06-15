@@ -9,3 +9,5 @@ hyper = "0.13"
 tokio = { version = "0.2", features = ["full"] }
 yarte = "0.8"
 minifier = { version = "0.0.36", features = ["html"] }
+log = "0.4"
+env_logger = "0.7"
